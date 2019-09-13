@@ -1,21 +1,22 @@
-package exo4;
+package exo3;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public class Inventory {
-	
 	private List<Guitar> guitars;
 
 	public Inventory() {
 		guitars = new LinkedList<>();
 	}
-	
-	public void addGuitar(String serialNumber, double price, GuitarSpec guitarSpec) {
-		guitars.add(new Guitar(serialNumber, price, guitarSpec));
+
+	public void addGuitar(String serialNumber, double price, Builder builder, String model, Type type, Wood backWood,
+			Wood topWood) {
+		guitars.add(new Guitar(serialNumber, price, builder, model, type, backWood, topWood));
 	}
 
 	public Guitar getGuitar(String serialNumber) {
@@ -64,5 +65,5 @@ public class Inventory {
 	private boolean isFilter(Object value) {
 		return Objects.nonNull(value) && !"".equals(value.toString());
 	}
-	
+
 }
