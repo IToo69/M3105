@@ -1,6 +1,6 @@
-package exo4;
+package exo5;
 
-public class Guitar {
+public class Guitar extends Instrument{
 
 	private String serialNumber;
 	private double price;

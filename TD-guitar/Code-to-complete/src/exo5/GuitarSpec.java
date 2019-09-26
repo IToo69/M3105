@@ -1,4 +1,4 @@
-package exo4;
+package exo5;
 
 public class GuitarSpec {
 
@@ -50,7 +50,7 @@ public class GuitarSpec {
 	
 	public boolean matches(GuitarSpec specs) {
 		if (specs.getBuilder() == null || specs.getBuilder()== this.getBuilder()) {
-			if(specs.getModel()== null || specs.getModel() == this.getModel() || specs.getModel()=="") {
+			if(specs.getModel()== null || specs.getModel() == this.getModel()) {
 				if(specs.getType() == null || specs.getType()== this.getType()) {
 					if(specs.getBackWood()== null || specs.getBackWood()==this.getBackWood()) {
 						if(specs.getTopWood()== null || specs.getTopWood()== this.getTopWood()) {

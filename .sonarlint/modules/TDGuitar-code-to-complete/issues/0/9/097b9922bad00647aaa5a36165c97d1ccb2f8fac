@@ -1,0 +1,25 @@
+
+vsquid:S1192"FDefine a constant instead of duplicating this literal "Alder" 6 times.(ª£˜H‡RCRITICALZ
+CODE_SMELL
+}squid:S1192
+"MDefine a constant instead of duplicating this literal "Stratocastor" 3 times.(½÷Ø”HˆRCRITICALZ
+CODE_SMELL
+wsquid:S1192
+"GDefine a constant instead of duplicating this literal "Fender" 3 times.(½÷Ø”H‰RCRITICALZ
+CODE_SMELL
+~squid:S1192#"IDefine a constant instead of duplicating this literal "Mahogany" 5 times.(”ÚªÁúÿÿÿÿHŠRCRITICALZ
+CODE_SMELL
+~squid:S1192"IDefine a constant instead of duplicating this literal "acoustic" 6 times.(ìéå…ûÿÿÿÿH‹RCRITICALZ
+CODE_SMELL
+ysquid:S1192"IDefine a constant instead of duplicating this literal "electric" 6 times.(ª£˜HŒRCRITICALZ
+CODE_SMELL
+|squid:S1192""GDefine a constant instead of duplicating this literal "Martin" 3 times.(„§ÆêùÿÿÿÿHRCRITICALZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Å¡ÄÿÿÿÿÿHRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿†´ôúÿÿÿÿHRMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âºƒüÿÿÿÿHRMINORZ
+CODE_SMELL

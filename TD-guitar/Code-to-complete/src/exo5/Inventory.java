@@ -1,4 +1,4 @@
-package exo4;
+package exo5;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -44,6 +44,11 @@ public class Inventory {
 
 	private boolean isFilter(Object value) {
 		return Objects.nonNull(value) && !"".equals(value.toString());
+	}
+
+	public void addInstrument(Guitar guitar) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
